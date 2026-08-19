@@ -1,6 +1,5 @@
 html, body {
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -35,8 +34,28 @@ input {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10%;
-    padding: 0 25px;
+    height: 56px;
+    padding: 0 30px;
+}
+
+.button-i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+.button-i:hover {
+    background-color: rgb(207, 215, 223);
+}
+
+.button-bars {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 1.3rem;
 }
 
 .cabecalho-inicio {
@@ -45,9 +64,10 @@ input {
     align-items: center;
     font-size: 1.4rem;
 }
+
 .cabecalho-meio {
     display: flex;
-    justify-content: space;
+    justify-content: center;
     width: 40%;
     border-radius: 15px;
 }
@@ -64,55 +84,59 @@ input {
 
 
 .search-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 50px;
     border-radius: 0px 20px 20px 0px;
     border: solid 1px gray;
+    font-size: 16px;
 }
 
 .search-input {
     outline: none;
     border: none;
-    width: 90%;
+    width: 93%;
+    font-size: 1rem;
 }
 
-.search-button i {
-    font-size: 16px;
+
+.button-microphone {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 14px;
+    background-color: rgba(214, 218, 224, 0.431);
+    border-radius: 50%;
 }
 
 .fa-microphone {
-    align-self: center;
-    padding: 0;
-    font-size: 14px;
-    font-weight: 10px;
-    margin-left: 16px;
-    border: solid 8px rgb(219, 225, 231);
-    border-radius: 50%;
-    background-color: rgb(219, 225, 231);
+    font-size: 25px;
 }
 
 .cabecalho-final {
     display: flex;
     gap: 16px;
-    align-items: center;
+    align-items: space-between;
 }
 
-.fa-ellipsis-vertical {
+
+
+.button-ellipsis {
     font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0);
+    width: 50px;
+    height: 35px;
 }
 
 .login {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: rgba(0, 0, 255, 0);
     color: rgb(0, 115, 255);
     border: solid 1px rgb(166, 162, 162);
     padding: 0.5rem;
     width: 100%;
     border-radius: 30px;
     gap: 10px;
+}
+
+.login:hover {
+    color: rgb(53, 53, 255);
 }
 
 .fa-circle-user {
