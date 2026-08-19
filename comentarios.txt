@@ -1,0 +1,12 @@
+apliquei as alterações sugeridas, muito obrigado. iremos adicionar funcionalidades ao icones do site (ex: microfone, botão de login), para isso precisamos estruturar estes icones dentro de botoes
+
+Prompt Sobre U.Ms:
+apliquei as alterações sugeridas, muito obrigado, a respeito do tópico levantado na altura fixa na barra, temos diferentes tipos de U.M, como px, rem e vh. como posso compreender quando utilizar cada uma delas? quais fontes me recomanda para estudar este assunto?
+
+
+Links importantes:
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/Reference
+
+
+anotações para próximas aulas: 
+-deixar o BR do cabecalho inicial acima no texto
