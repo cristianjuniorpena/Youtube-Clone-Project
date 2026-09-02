@@ -147,6 +147,58 @@ input {
     font-weight: bold;
     font-size: 14px;
 }
+
+
+
+/* alterações no main */
+
+main {
+    display: flex;
+}
+
+.main-left {
+    overflow-y: auto;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid rgba(199, 199, 199, 0.931) 1px;
+    width: 15rem;
+}
+
+.sidebar-button {
+    padding: 1rem 1rem;
+    display: flex;
+    font-size: large;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    gap: 15px;
+    border-radius: 20px;
+}
+
+.sidebar-button i {
+    font-size: 1.5rem;
+}
+
+.sidebar-button:hover {
+    background-color: rgba(207, 215, 223, 0.445);
+}
+
+.voce {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+
+.rodape {
+    width: 100%;
+    height: 56px;
+}
+
+
 /* 
 #container {
     padding: 10rem;
