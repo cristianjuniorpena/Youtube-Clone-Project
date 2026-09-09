@@ -10,6 +10,10 @@ html, body {
     color: red;
 }
 
+.logotipo-text {
+    font-weight: 700;
+}
+
 .logotipo-text-br {
     font-size: 8px;
     color: rgba(108, 112, 116, 0.685);
@@ -164,13 +168,12 @@ main {
     display: flex;
     flex-direction: column;
     border-bottom: solid rgba(199, 199, 199, 0.931) 1px;
-    width: 15rem;
+    width: 13rem;
 }
 
 .sidebar-button {
     padding: 1rem 1rem;
-    display: flex;
-    font-size: large;
+    display: flex;  
     align-items: center;
     text-decoration: none;
     color: black;
@@ -191,6 +194,63 @@ main {
     font-weight: 600;
 }
 
+.videos-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.videos img {
+    border-radius: 16px;
+}
+
+.videos {
+    display: flex;
+    gap: 16px;
+}
+
+.video-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.video-title {
+    font-weight: bold;
+}
+.chanel-name {
+    color: gray;
+}
+.infos {
+    color: gray;
+    display: flex;
+}
+
+.chanel-infos {
+    display: flex;
+}
+
+
+.chanel-informations {
+    display: flex;
+}
+
+.like-and-deslike {
+    display: flex;
+}
+
+.video-interaction {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.chanel-pic {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
 
 
 .rodape {
